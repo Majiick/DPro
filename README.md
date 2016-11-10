@@ -7,5 +7,6 @@ To protect an executable, so I don't forget myself because I didn't automate thi
 	(Optional: Change the encryption key.)
 	3. Compile and run Source.cpp
 	4. Change the include file names in stubGen.asm to the files outputted by Source.cpp.
-	5. Compile and run stubGen.asm.
-	6. Voila. But if you want to retain the .rsrc section for the icon, then look at where the .rsrc section is and change the .rsrc directory to point to it. You can do this using CFF explorer.
+	5. Change the entry point in stubGen.asm to the entry point of the executable - 0x1000.
+	6. Compile and run stubGen.asm.
+	7. Voila. But if you want to retain the .rsrc section for the icon, then look at where the .rsrc section is and change the .rsrc directory to point to it. You can do this using CFF explorer.
