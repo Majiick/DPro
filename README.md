@@ -2,6 +2,7 @@
 A not-very-good 32-bit executable protector. Good learning though.
 
 To protect an executable, so I don't forget myself because I didn't automate this:
+
 	1. Change FileDirectory fileDirectoryInfo; in Source.cpp main() to point to the right input file and output folders.
 	
 	2. Change the FILE_SIZE constant in Source.cpp to the file size of the executable.
